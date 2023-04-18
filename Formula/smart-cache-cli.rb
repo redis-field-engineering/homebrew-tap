@@ -1,4 +1,4 @@
-class RedisSmartCacheCli < Formula  
+class SmartCacheCli < Formula  
     desc "Redis Smart Cache CLI tool"
     homepage "https://github.com/redis-field-engineering/redis-smart-cache-cli"
     url "https://github.com/redis-field-engineering/redis-smart-cache-cli/archive/refs/tags/v0.0.5.tar.gz"
