@@ -4,6 +4,7 @@ class SmartCacheCli < Formula
     url "https://github.com/redis-field-engineering/redis-smart-cache-cli/archive/refs/tags/v0.0.6.tar.gz"
     sha256 "4c4cb803f161abc2ea78c84eb3992501c5c1e0469dcbc0404bc0daf204058e52"
     license "MIT"
+    version "v0.0.6"
   
     depends_on "go" => :build
   
