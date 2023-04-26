@@ -1,10 +1,10 @@
 class SmartCacheCli < Formula  
     desc "Redis Smart Cache CLI tool"
     homepage "https://github.com/redis-field-engineering/redis-smart-cache-cli"
-    url "https://github.com/redis-field-engineering/redis-smart-cache-cli/archive/refs/tags/v0.0.8.tar.gz"
-    sha256 "2394489b14622142fe561ef6cf4ae29997f4af9adbc26d259611d3fe657fd398"
+    url "https://github.com/redis-field-engineering/redis-smart-cache-cli/archive/refs/tags/v0.0.9.tar.gz"
+    sha256 "7af66838ed44f0635cf650cd758570d5459fa9c99a0797614f06fa5c5f8c845a"
     license "MIT"
-    version "v0.0.8"
+    version "v0.0.9"
   
     depends_on "go" => :build
   
@@ -14,7 +14,7 @@ class SmartCacheCli < Formula
   
     test do    
         output = shell_output("#{bin}/smart-cache-clie -v")
-        assert_match "Redis Smart Cache CLI Version: v0.0.8", output
+        assert_match "Redis Smart Cache CLI Version: v0.0.9", output
     end
   end
   
